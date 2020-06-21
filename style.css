@@ -49,6 +49,19 @@ body {
     box-shadow: 0 2px 2px #ddd;
 }
 
+.result {
+    grid-column: 1 /-1;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+}
+
+.result_info {
+    grid-column: 1 /-1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .footer {
     background-color: #000;
     text-align: center;
